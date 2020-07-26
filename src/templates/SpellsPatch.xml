@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+  {% for spell in unused_spells %}
+    <remove sel="Spells/Spell[@itemID='{{spell}}']" ws="after" />
+  {% endfor %}
+  
+  <!-- note: a regex looks for the itemID equals thingy pattern -->
+  <!-- note: Stats is bugged to not work when self-closing, hence the weird space adders -->
+  
+  <replace sel="Spells/Spell[@itemID='Kunai']/Damage/text()">50</replace>
+
+  <replace sel="Spells/Spell[@itemID='BladeBayToss']/Damage/text()">80</replace>
+  <replace sel="Spells/Spell[@itemID='BladeBayToss']/TouchTile[@check='NotFragile']/@amount">150</replace>
+  <replace sel="Spells/Spell[@itemID='BladeBayToss']/TouchTile[@check='Fragile']/@amount">300</replace>
+  <add sel="Spells/Spell[@itemID='BladeBayToss']"><OnCast>Consume</OnCast></add>
+
+  <replace sel="Spells/Spell[@itemID='StepSlash']/Damage/text()">130</replace>
+  <replace sel="Spells/Spell[@itemID='StepPierce']/Damage/text()">130</replace>
+
+  <replace sel="Spells/Spell[@itemID='Guillotine']/Damage/text()">100</replace>
+  <replace sel="Spells/Spell[@itemID='Guillotine']/OnHit[@check='HitHPUnder']/@checkAmount">401</replace>
+  <replace sel="Spells/Spell[@itemID='Guillotine']/Description"><Description>Hit a small column 4 tiles away. Execute targets with 400 HP or less</Description></replace>
+
+  <remove sel="Spells/Spell[@itemID='LifeSword']/OnCast[text()='Consume']" ws="after" />
+  <replace sel="Spells/Spell[@itemID='LifeSword']/OnCast[@target]/@amount">-10</replace>
+  <replace sel="Spells/Spell[@itemID='Guillotine']/Description"><Description>Hit 2x3 tiles in front of you and lose 10 ef.MaxHPChange</Description></replace>
+
+  <replace sel="Spells/Spell[@itemID='Warpath']/Damage/text()">170</replace>
+
+  <!-- rarities -->
+  <replace sel="Spells/Spell[@itemID='StepFury']/Rarity/text()">2</replace>
+  <replace sel="Spells/Spell[@itemID='Vivisection']/Rarity/text()">2</replace>
+  <replace sel="Spells/Spell[@itemID='Guillotine']/Rarity/text()">2</replace>
+  <replace sel="Spells/Spell[@itemID='Excalibur']/Rarity/text()">3</replace>
+  <replace sel="Spells/Spell[@itemID='LifeSword']/Rarity/text()">3</replace>
+  <replace sel="Spells/Spell[@itemID='Warpath']/Rarity/text()">3</replace>
+
+</diff>

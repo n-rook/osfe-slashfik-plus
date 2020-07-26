@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<WorkshopItemInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PublishedFileId>2178474526</PublishedFileId>
+  <Name>Slashfik+</Name>
+  <Description>Rebalances the cards in the Slashfik brand.</Description>
+  <IconFileName>workshopIcon.png</IconFileName>
+  <Tags />
+  <Priority>0</Priority>
+  <ModVersion>0</ModVersion>
+  <GameVersion>1.4.2</GameVersion>
+</WorkshopItemInfo>
