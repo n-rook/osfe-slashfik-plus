@@ -9,9 +9,10 @@ Fundamentally, 30 damage is just too low to matter. Compare Doubletake to someth
 The fundamental appeal of Blade Bay is that you can throw it down in a small deck, and it'll continue to provide value as you play. It does 80 damage, which is actually quite a lot, given the AOE and low mana cost; however, its low HP means it will likely die before it can provide much help.
 
 50 -> 80 (landing damage; this is still terrible but it's more appealing numerologically)
+
 HP: 80 -> 150
-HP if fragile: 150 -> 300
-Consume (it's bad in multiples, so this should pretty much be a buff)
+
+Consume (it's bad in multiples, so this should function as a buff)
 
 ## Step Pierce
 
@@ -23,7 +24,7 @@ This might not be enough.
 
 Damage: 80 -> 130
 
-This might actually make Step Slash too good; something like Flint Shot is 160 damage for 2, or Coldstone is 200 for 3, with no AOE; and they're both pretty good. But 80 was just awful.
+This might actually make Step Slash too good; something like Flint Shot is 160 damage for 2, or Coldstone is 200 for 3, with no AOE; and they're both pretty good. But 80 was just awful. We'll see after further testing.
 
 ## Collect Ring
 
