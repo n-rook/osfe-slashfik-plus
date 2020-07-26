@@ -15,13 +15,15 @@ Consume (it's bad in multiples, so this should pretty much be a buff)
 
 ## Step Pierce
 
-80 -> 130
+Damage: 80 -> 130
 
 This might not be enough.
 
 ## Step Slash
 
-80 -> 130
+Damage: 80 -> 130
+
+This might actually make Step Slash too good; something like Flint Shot is 160 damage for 2, or Coldstone is 200 for 3, with no AOE; and they're both pretty good. But 80 was just awful.
 
 ## Collect Ring
 
@@ -29,16 +31,23 @@ Collect Ring might need a nerf after kunai were buffed, since it was decent alre
 
 ## Guillotine
 
-80 -> 100
-300 -> 400
+Damage: 80 -> 100
+Execute: 300 -> 400
+
+Guillotine costs 4 and provides nowhere near enough value to justify that. This should make it a bit more useful.
 
 ## Lifesword
 
-30 -> 10
+Max HP cost: 30 -> 10
 -Consume
 
+LifeSword does a lot of damage, but it's hard to hit with, and -30 max HP is a brutal cost. Reducing the cost should make it better.
+
 ## Warpath
-120 -> 170
+
+Damage: 120 -> 170
+
+Warpath is hard to hit with and leaves you vulnerable, so it needs a better payoff than just 240 damage. This might not be enough.
 
 # Rarities
 
@@ -64,3 +73,11 @@ Vivisection
 Guillotine
 
 In short, Fury, Vivisection and Guillotine are now Epic. Excalibur, Lifesword and Warpath are now Legendary.
+
+# What's left?
+
+There are two main changes which I haven't done yet.
+
+First, if kunai are good, Ninjutsu becomes too strong. So I'd like to rework it.
+
+Second, I think kunai should probably have infinite range; this would help their "feel" a lot.
