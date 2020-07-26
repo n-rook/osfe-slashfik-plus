@@ -22,9 +22,9 @@ This might not be enough.
 
 ## Step Slash
 
-Damage: 80 -> 130
+Damage: 80 -> 110
 
-This might actually make Step Slash too good; something like Flint Shot is 160 damage for 2, or Coldstone is 200 for 3, with no AOE; and they're both pretty good. But 80 was just awful. We'll see after further testing.
+I originally tested 130, but that felt too strong.
 
 ## Collect Ring
 
